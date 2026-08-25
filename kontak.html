@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - AURA Beauty</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    h1, h2, h3 { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+<body class="bg-[#FAFAFA] text-[#2C2C2C]">
+
+  <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b border-rose-100/50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-serif tracking-widest text-[#8A5A44] font-semibold">AURA.</a>
+      <div class="hidden md:flex space-x-8 text-sm uppercase tracking-wider font-medium text-gray-600">
+        <a href="index.html" class="hover:text-[#8A5A44] transition">Beranda</a>
+        <a href="layanan.html" class="hover:text-[#8A5A44] transition">Layanan</a>
+        <a href="tentang.html" class="hover:text-[#8A5A44] transition">Tentang Kami</a>
+        <a href="galeri.html" class="hover:text-[#8A5A44] transition">Galeri</a>
+        <a href="kontak.html" class="text-[#8A5A44]">Kontak</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-32 pb-20 max-w-4xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-normal mb-4">Hubungi / Reservasi</h1>
+      <p class="text-gray-500 font-light">Isi formulir di bawah ini untuk mengamankan jadwal perawatan Anda.</p>
+    </div>
+
+    <form class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 space-y-6">
+      <div>
+        <label class="block text-xs uppercase tracking-wider text-gray-500 mb-2">Nama Lengkap</label>
+        <input type="text" class="w-full bg-gray-50 border border-gray-200 rounded-lg p-3 text-sm focus:outline-none focus:border-[#8A5A44]">
+      </div>
+      <div>
+        <label class="block text-xs uppercase tracking-wider text-gray-500 mb-2">Nomor WhatsApp</label>
+        <input type="tel" class="w-full bg-gray-50 border border-gray-200 rounded-lg p-3 text-sm focus:outline-none focus:border-[#8A5A44]">
+      </div>
+      <div>
+        <label class="block text-xs uppercase tracking-wider text-gray-500 mb-2">Pilih Layanan</label>
+        <select class="w-full bg-gray-50 border border-gray-200 rounded-lg p-3 text-sm focus:outline-none focus:border-[#8A5A44]">
+          <option>Glow Hydra Facial</option>
+          <option>Anti-Aging Rejuvenation</option>
+          <option>Aromatherapy Spa Body Massage</option>
+        </select>
+      </div>
+      <button type="button" class="w-full bg-[#8A5A44] text-white py-3.5 rounded-lg text-sm font-medium hover:bg-[#6E4633] transition">Kirim Formulir</button>
+    </form>
+  </main>
+
+  <footer class="border-t border-gray-200 py-8 text-center text-xs text-gray-400">
+    <p>&copy; 2026 AURA Beauty Sanctuary. Hak Cipta Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
